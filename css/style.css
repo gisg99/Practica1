@@ -1,8 +1,12 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: navy;
+    color: rgb(0, 0, 44);
 }
 
 p{
-    color: blueviolet;
+    color: navy;
+}
+
+body p:nth-child(odd){
+    color: red;
 }
