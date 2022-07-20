@@ -9,6 +9,7 @@ body{
 .content{
     width: 80%;
     border: 1px solid rgb(74, 0, 97);
+    box-shadow: 17px 17px 33px 2px #442878;
     text-align: center;
     background-color: rgb(5, 0, 29);
     color: rgb(19, 0, 189);
