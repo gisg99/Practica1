@@ -1,12 +1,20 @@
 body{
     font-family: sans-serif;
     color: rgb(0, 0, 44);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-p{
-    color: navy;
+.content{
+    width: 80%;
+    border: 1px solid rgb(74, 0, 97);
+    box-shadow: 17px 17px 33px 2px #442878;
+    text-align: center;
+    background-color: rgb(5, 0, 29);
+    color: rgb(19, 0, 189);
 }
 
-body p:nth-child(odd){
+.content p:nth-child(odd){
     color: red;
 }
