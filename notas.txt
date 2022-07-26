@@ -79,3 +79,13 @@ primera vez
 
 <git push origin master> Enviar los archivos desde el repositorio
 local a el repositorio de GitHub indicado como origin
+
+<git clone https://github.com/usuariopropietario/nombrerepositorio>
+Traer un repositorio desde GitHub a nuestra carpeta local y a la vez
+crear repositorio de Git en ese mismo directorio con dichos archivos
+
+NOTAS:
+
+NO es bueno tener archivos binarios en Git/GitHub ya que estos son
+mas pesados y tienen una estructura que no podemos leer desde estos
+sistemas.
