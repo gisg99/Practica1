@@ -89,3 +89,11 @@ NOTAS:
 NO es bueno tener archivos binarios en Git/GitHub ya que estos son
 mas pesados y tienen una estructura que no podemos leer desde estos
 sistemas.
+
+Podemos crear un archivo en la raiz nombrado ".gitignore" para
+indicarle a Git que archivos deberia ignorar a la hora de añadirlos
+al repositorio. (Por ejemplo todos los archivos binarios con "*.bin")
+
+Crear un README.md es una excelente practica que debemos aplicar en
+todos los proyectos que hagamos, hay una pagina que nos ayuda a
+realizar el diseño y es: https://pandao.github.io/editor.md/en.html
